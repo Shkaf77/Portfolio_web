@@ -99,3 +99,107 @@
   height: 100%;
   object-fit: cover;
 }
+
+.section {
+  width: min(1120px, 90%);
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.section-header {
+  margin-bottom: 36px;
+}
+
+.section-label {
+  font-size: 14px;
+  font-size: 700;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.section h2 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+.about-content {
+  max-width: 760px;
+  display: grid;
+  gap: 22px;
+}
+
+.about-content p,
+.contact-text {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.skill-card {
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 18px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.project-card {
+  padding: 28px;
+  min-height: 230px;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 22px;
+
+}
+
+.project-tech {
+  font-size: 13px;
+  font-weight: 700;
+  color: #777;
+  margin-bottom: 18px;
+}
+
+.project-card h3 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+.project-card p {
+  line-height: 1.7;
+  color: #444;
+}
+
+.contact-section {
+  padding-bottom: 120px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.contact-links a {
+  padding: 14px 22px;
+  border-radius: 8px;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+
+}

@@ -15,7 +15,7 @@ function Contact() {
                 <a href = "https://github.com/Shkaf77" target = "_blank" rel = "noreferrer">
                     GitHud
                 </a>
-                <a href = "linkedin.com/in/oleksandr-nitsenko-0a1400386" target = "_blank" rel = "noreferrer">
+                <a href = "https://linkedin.com/in/oleksandr-nitsenko-0a1400386" target = "_blank" rel = "noreferrer">
                     LinkdIn
                 </a>
             </div>
