@@ -284,6 +284,20 @@
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.16);
 }
 
+/* FOOTER */
+
+.footer {
+  width: min(1120px, 90%);
+  margin: 0 auto;
+  padding: 32px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.footer p {
+  font-size: 14px;
+  color: #666666;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 860px) {
