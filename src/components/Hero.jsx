@@ -1,32 +1,41 @@
-import avatar from '../assets/avatar.jpg';
+import avatar from '../assets/avatar.jpg'
 
-function Hero() { 
-    return (
-        <section id = "home" className = "hero">
-            <div className = "hero-text">
-                <p className = "intro">Hi, I'm</p>
-                <h1>Niroshi.</h1>
+function Hero() {
+  return (
+    <section id="home" className="hero">
+      <div className="hero-text">
+        <p className="intro">Hi, I'm</p>
 
-                <p className = "description">
-                    I build clean and efficient web applications.
-                </p>
+        <h1>
+          Niroshi
+        </h1>
 
-                <div className = "buttons">
-                    <a href="#projects" className="btn primary">
-                        View Projects
-                    </a>
+        <p className="description">
+          I create clean, simple and practical web applications.
+        </p>
 
-                    <a href="#contact" className="btn secondary">
-                        Contact Me
-                    </a>
-                </div>
-            </div>
+        <div className="buttons">
+          <a href="#skills" className="btn primary">
+            View Skills
+          </a>
 
-            <div className = "hero-avatar">
-                <img src={avatar} alt="Niroshi avatar"/>
-            </div>
-        </section>
-    );    
+          <a href="#contact" className="btn secondary">
+            Contact Me
+          </a>
+        </div>
+      </div>
+
+      <div className="hero-card">
+        <div className="hero-avatar">
+          <img src={avatar} alt="Niroshi avatar" />
+        </div>
+
+        <div className="hero-card-info">
+          <p>Developer</p>
+        </div>
+      </div>
+    </section>
+  )
 }
 
 export default Hero

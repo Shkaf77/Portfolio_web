@@ -11,12 +11,14 @@ function Contact() {
             </p>
 
             <div className = "contact-links">
-                <a href = "mailto:nitsenko.oleksandr@gmail.com">Email</a>
+                <a href = "mailto:nitsenko.oleksandr@gmail.com">
+                    Email
+                </a>
                 <a href = "https://github.com/Shkaf77" target = "_blank" rel = "noreferrer">
-                    GitHud
+                    GitHub
                 </a>
                 <a href = "https://linkedin.com/in/oleksandr-nitsenko-0a1400386" target = "_blank" rel = "noreferrer">
-                    LinkdIn
+                    LinkedIn
                 </a>
             </div>
         </section>

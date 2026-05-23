@@ -33,7 +33,7 @@
   position: relative;
   text-decoration: none;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   color: #1d1d1d;
   opacity: 0.75;
   transition: opacity 0.2s ease;
@@ -65,7 +65,7 @@
   margin: 0 auto;
   min-height: calc(100vh - 90px);
   display: grid;
-  grid-template-columns: 1fr 360px;
+  grid-template-columns: 1fr 340px;
   align-items: center;
   gap: 80px;
 }
@@ -76,7 +76,7 @@
 
 .intro {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   color: #555555;
   margin-bottom: 12px;
 }
@@ -111,7 +111,7 @@
   border-radius: 999px;
   text-decoration: none;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 800;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease,
@@ -138,20 +138,42 @@
   background: #ffffff;
 }
 
+/* HERO AVATAR CARD */
+
+.hero-card {
+  width: 340px;
+  padding: 12px;
+  border-radius: 38px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.12);
+  transform: translateY(-35px);
+}
+
 .hero-avatar {
-  width: 360px;
-  height: 360px;
-  border-radius: 36px;
+  width: 100%;
+  height: 320px;
+  border-radius: 30px;
   overflow: hidden;
   background: #e7e4dd;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.14);
 }
 
 .hero-avatar img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
+}
+
+.hero-card-info {
+  padding: 16px 10px 4px;
+  text-align: center;
+}
+
+.hero-card-info p {
+  font-size: 17px;
+  font-weight: 800;
+  color: #111111;
 }
 
 /* COMMON SECTIONS */
@@ -267,10 +289,14 @@
     gap: 46px;
   }
 
-  .hero-avatar {
+  .hero-card {
     width: min(100%, 340px);
-    height: 340px;
+    transform: none;
     order: -1;
+  }
+
+  .hero-avatar {
+    height: 320px;
   }
 
   .hero h1 {
@@ -289,6 +315,10 @@
 
   .intro {
     font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 58px;
   }
 
   .description {
