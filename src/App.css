@@ -65,6 +65,18 @@
   width: 100%;
 }
 
+.navbar a.active {
+  opacity: 1;
+}
+
+.navbar a.active::after {
+  width: 100%;
+}
+
+.navbar .logo.active::after {
+  display: none;
+}
+
 /* HERO */
 
 .hero {
