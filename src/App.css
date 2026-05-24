@@ -344,8 +344,13 @@
 
   .navbar nav {
     width: 100%;
+    display: flex;
     gap: 18px;
     flex-wrap: wrap;
+  }
+
+  .navbar a {
+    font-size: 14px;
   }
 
   .hero {
@@ -375,8 +380,16 @@
 }
 
 @media (max-width: 560px) {
+  .navbar {
+    padding: 22px 0;
+  }
+
   .navbar nav {
-    gap: 14px;
+    gap: 12px;
+  }
+
+  .navbar a {
+    font-size: 13px;
   }
 
   .section {
