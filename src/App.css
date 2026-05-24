@@ -196,6 +196,7 @@
   width: min(1120px, 90%);
   margin: 0 auto;
   padding: 90px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .section-header {
@@ -265,6 +266,10 @@
 
 /* CONTACT */
 
+.contact-text {
+  max-width: 620px;
+}
+
 .contact-section {
   padding-bottom: 120px;
 }
@@ -305,6 +310,10 @@
   margin: 0 auto;
   padding: 32px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
 }
 
 .footer p {
@@ -423,5 +432,11 @@
   .hero-avatar {
     height: 300px;
     border-radius: 28px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+
   }
 }
