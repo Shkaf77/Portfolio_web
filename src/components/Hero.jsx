@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import avatar from '../assets/avatar.jpg'
 
 function Hero() {
@@ -6,22 +7,20 @@ function Hero() {
       <div className="hero-text">
         <p className="intro">Hi, I'm</p>
 
-        <h1>
-          Niroshi
-        </h1>
+        <h1>Niroshi</h1>
 
         <p className="description">
           I create clean, simple and practical web applications.
         </p>
 
         <div className="buttons">
-          <a href="#skills" className="btn primary">
+          <Link to="/skills" className="btn primary">
             View Skills
-          </a>
+          </Link>
 
-          <a href="#contact" className="btn secondary">
+          <Link to="/contact" className="btn secondary">
             Contact Me
-          </a>
+          </Link>
         </div>
       </div>
 
