@@ -2,6 +2,8 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
 import Navbar from './components/Navbar'
+import ScrollToTop from './components/ScrollToTop'
+
 import Home from './pages/Home'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
@@ -12,6 +14,7 @@ function App() {
   return (
     <main className="page">
       <Navbar />
+      <ScrollToTop />
 
       <Routes>
         <Route path="/" element={<Home />} />
