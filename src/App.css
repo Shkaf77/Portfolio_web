@@ -458,3 +458,30 @@
 
   }
 }
+
+/* NOT FOUND */
+
+.not-found {
+  width: min(1120px, 90%);
+  min-height: calc(100vh - 92px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.not-found h1 {
+  font-size: clamp(52px, 8vw, 92px);
+  line-height: 1;
+  letter-spacing: -4px;
+  margin-bottom: 24px;
+}
+
+.not-found p {
+  max-width: 520px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444444;
+  margin-bottom: 32px;
+}
