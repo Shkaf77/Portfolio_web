@@ -4,7 +4,10 @@ import Footer from '../components/Footer'
 function ContactPage() {
   return (
     <>
-      <Contact />
+      <div className="page-content">
+        <Contact />
+      </div>
+
       <Footer />
     </>
   )

@@ -4,7 +4,10 @@ import Footer from '../components/Footer'
 function SkillsPage() {
   return (
     <>
-      <Skills />
+      <div className="page-content">
+        <Skills />
+      </div>
+
       <Footer />
     </>
   )

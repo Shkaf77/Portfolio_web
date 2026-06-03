@@ -4,7 +4,10 @@ import Footer from '../components/Footer'
 function AboutPage() {
   return (
     <>
-      <About />
+      <div className="page-content">
+        <About />
+      </div>
+      
       <Footer />
     </>
   )
